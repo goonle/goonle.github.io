@@ -1,1 +1,0 @@
-Hello, This is Junhyung Huh, aka Jun
