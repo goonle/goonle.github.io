@@ -1,3 +1,3 @@
-# pygments-css
+# project
 
 how come?
