@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Obsidian 연동 주의사항
+title: "Obsidian 연동 주의사항"
 date: 2023-12-19 23:32
 categories: jekyll
 tags:
