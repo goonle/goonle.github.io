@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test 2"
-date: 2023-12-18 21:32
+date: 2023-12-18 21:32 +0900
 categories: test
 tags:
   - tag-test
