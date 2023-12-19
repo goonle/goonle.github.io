@@ -2,7 +2,7 @@
   "name": "pygments-css",
   "version": "1.0.0",
   "description": "CSS stylesheets for pygments",
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/richleland/pygments-css.git"
   },
