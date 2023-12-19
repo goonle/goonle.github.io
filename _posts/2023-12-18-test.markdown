@@ -1,7 +1,58 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "jekyll 수정하기"
 date:   2023-12-18 20:25:29 +0900
-categories: test
+categories: jekyll
 ---
-# 이건 테스트! 이렇게 작성하는게 맞을까?
+
+### 지킬 테마를 적용시키고
+---
+테마를 적용시키기는 생각보다 쉬웠다. 
+하기 전엔 Ruby를 설치하고 다운로드 받고 이런 식으로 할 줄 았았는데
+원하는 테마를 찾은 후에 github에서 다운로드 받아 레포지토리로 push하면 끝!
+
+### 수정
+---
+일단 테마를 만들어준 원작자에게는 감사하다.
+다만 그 다음엔 나에게 맞게 수정을 해야했다.
+첫 감상은 마코 템플릿처럼 템플릿 문법을 사용하여 include하고 for 반복문을 돌리기도 하며 if 조건문이 달려도 있었다.
+
+제일 처음 한 것은 타이틀 변경하기와 기본적인 개인정보 수정이었다.
+(지금 적용되어 있는 jekyll theme은 monos이다) 
+
+1. _config.yml 파일에 보면
+```yml
+title: Junhyung Huh
+email: junhuh741@gmail.com
+description: >- 
+  Web Developer since Dec in 2021
+github_username: goonle
+...#중략
+```
+이런 식으로 수정이 가능했다.
+
+### 글 쓰기
+---
+그 다음 찾은 기능은 글쓰기 기능이었다. 디렉토리 구조를 보면 아래와 같은 폴더구조로 되어 있다.
+```
+-_includes
+-_layouts
+-_posts
+```
+게시물로 올라온 글과 각 파일을 비교했을 때, _post 하위에 일정한 형식으로 작성된다는 것을 확인 할 수 있었다.
+
+### 파일 형식
+---
+먼저 파일 형식은 yyyy-mm-dd-???.markdown 로 되어있고 안에는 속성이 설정되어 있는데 현재 파일의 경우엔 아래와 같이 작성되어 있다.
+```markdown
+---
+layout: post
+title:  "jekyll 수정하기"
+date:   2023-12-18 20:25:29 +0900
+categories: jekyll
+---
+```
+- layout :  _layout에 작성된 post.html의 형식을 가져가며
+- title : 글의 제목으로 ""(쌍따옴표)를 사용해주면 된다.
+- date : yyyy-mm-dd 24h:MM:ss +h 로 구성되어있고
+- categories : 는 좌측 하단의 카테고리 별로 중복이 제거되어 쌓인다.
