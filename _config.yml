@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Junhyung Huh"
   avatar : "/assets/images/ai-gen-profile.jpeg"
-  bio    : "Hello. This is Jun. I'm working as full-stack programmer for 3 years. \n Javascript, Python, and Java are my programming languages."
+  bio    : "Call me Jun. I'm working as junior full-stack programmer.\n Javascript, Python, and Java are my programming languages.\n I like Comics, Workout, and Running."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
