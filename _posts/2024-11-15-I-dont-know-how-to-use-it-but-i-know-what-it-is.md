@@ -1,22 +1,9 @@
 ---
-title: "Your Post Title Here"
+title: "I don't know how to use it but i've heard about it"
 date: {{ "now" | date: "%Y-%m-%dT%H:%M:%S%z" }}
 categories:
   - blog
 tags:
-  - TypeScript
-  - JavaScript
-  - beginner
+  - Jekyll
+  - update
 ---
-
-## Introduction
-
-(Your content here)
-
-## Benefits of TypeScript
-
-(Your content here)
-
-## Conclusion
-
-(Your content here)
